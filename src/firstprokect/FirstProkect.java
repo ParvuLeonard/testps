@@ -21,11 +21,13 @@ public class FirstProkect {
         Product l2 = new Laptop("HP",30,"i7","17''");
         Product m1 = new Mobile("IPhone",18,"16GB","IOS");
         Product m2 = new Mobile("SamsungGS4",21,"32GB","Android");
+	Product m3 = new Mobile("IPhone",18,"32GB","IOS");
         
         cart.add(l1,4);
         cart.add(l2,7);
         cart.add(m1,2);
         cart.add(m2,6);
+	cart.add(m3,32);
         
         System.out.println(cart.toString());
         System.out.println(cart.getTotalPrice());
